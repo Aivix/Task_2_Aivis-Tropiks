@@ -1,0 +1,391 @@
+*{
+box-sizing: border-box;
+}
+@font-face {
+        font-family: Montserrat;
+        src: url('/assets/font/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('/assets/font/Oswald-Bold.ttf');
+}
+
+.container{
+position: relative;
+}
+
+.navbar-brand{
+margin-left:  50px;
+}
+
+.navbar-toggler{
+margin-top: 20%;
+}
+
+.nav{
+background: #FFFFFF;
+}
+
+/* nav-item */
+.nav-item{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #060606;
+}
+
+#menu .nav-link{
+color: #060606;
+white-space: nowrap;
+margin-top:  35px;
+}
+#link1{
+margin: 10px;
+}
+#link2{
+margin: 10px;
+}
+#link3{
+margin: 10px;
+}
+#link4{
+margin: 10px;
+}
+#link5{
+margin: 10px;
+}
+#link6{
+margin: 10px;
+}
+#link7{
+margin: 10px;
+margin-right: 60px;
+}
+
+#video{
+width: 100%;
+}
+
+#text{
+margin-top: 160px;      
+margin-bottom: 160px; 
+width: 100%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #2F4858;
+}
+
+/* Zanda_1 */
+#picture1{
+width: 100%;
+height: 100%;
+}
+
+ /* Sibilla_4 */
+#picture2{
+width: 100%;
+height: 100%;
+}
+
+/* Anda_2 1 */
+#picture5{
+width: 100%;
+height: 100%;
+}
+
+/* Brinuma_meita-15 */
+#picture3{
+width: 100%;
+background: transparent;
+}
+
+/* Alina_1 1 */
+#picture4{
+width: 100%;
+}
+
+/* Teksts */
+.text-sapnotajiem-uznemejiem{
+margin-top: 120px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+}
+
+/* Pogas */
+.button{
+margin-top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+text-align: center;
+}
+
+/* Poga sapņotājiem */
+#button-sapnotajiem{
+width: 233px;
+height: 50px;
+background: #FFA800;
+border-radius: 50px;
+border: hidden;
+color: #FFFFFF;
+}
+
+/* Poga uzņēmējiem */
+#button-uznemejiem{
+width: 233px;
+height: 50px;
+background: #FFA800;
+border-radius: 50px;
+border: hidden;
+color: #FFFFFF;
+}
+
+/* SAZINĀTIES AR MUMS */
+#SAZINĀTIES{
+margin-bottom: 50px;
+margin-top: 150px;
+height: 48px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+color: #2F4858;
+}
+
+.form{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+letter-spacing: -0.015em; 
+}
+
+#contact-form-name{
+margin-top: 15px;
+width: 100%;
+height: 43px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+#contact-form-email{
+margin-top: 15px;
+width: 100%;
+height: 43px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+#contact-form-Phone{
+margin-top: 15px;
+width: 100%;
+height: 43px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+#contact-form-message{
+margin-top: 15px;
+width: 100%;
+height: 232px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+/* * obligāti aizpildāmie lauki */
+.form-text{
+margin-top: 15px;
+width: 612px;
+height: 25px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #2F4858;
+}
+
+ /* Rectangle 44 */
+.form-check-input{
+margin-top: 15px;
+width: 16px;
+height: 16px;
+background: #E7E7E7;
+border-radius: 3px;
+}
+
+/* Text next to check*/
+.form-check-label{
+margin-top: 15px;
+width: 100%;
+height: 39px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #2F4858;
+}
+
+#contact-form-button{
+width: 182px;
+height: 62px;
+border-radius: 50px;
+border: hidden;
+background: #FFA800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.atbalstitaji-container{
+background-color: #FFCB66;
+width: 100%;
+height: 433.32px;
+}
+
+.atbalstitaji{
+margin-top: 100px;
+width: 100%;
+}
+
+#atbalstitaji{
+margin-top: 50px;
+width: 100%;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #2F4858;
+}
+
+.logo-atbalstitaji{
+margin-top: 50px;
+text-align: center;
+width: 100%;
+}
+
+.footer-container-1{
+background: #2F4858;
+height:100%;
+}
+
+.LogoZelts{
+margin-left: 62px;
+}
+
+#logo1{
+margin-top: 10px;
+}
+
+#logo2{
+margin-right: 29px;
+margin-top: 10px;
+}
+
+.footer-text{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#footer-TEXT{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+.therd{
+text-align: right;
+margin-right: 64px;
+}
+
+.footer-TEXT-small{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+#footer-TEXT-small1{
+margin-left: 62px;
+width: 185px;
+}
+
+#footer-TEXT-small2{
+margin-right: 40px;
+text-align: end;
+margin-top: 15px;
+}
+#rekviziti{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+#riped1{
+margin-top: -5.5%;
+width: 100%;
+background: transparent;
+
+}
+
+#riped2{
+margin-bottom: -4.5%;
+width: 100%;
+transform: rotate(-180deg);
+}
+
+#riped3{
+width: 100%;
+height: 55px;
+}
+
+#riped4{
+width: 100%;
+transform: rotate(-180deg);
+margin-bottom: -4%;
+}
+
+#riped5{
+width: 100%;
+}
